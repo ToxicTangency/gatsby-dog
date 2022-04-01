@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
         style={{ marginBottom: `1.45rem` }}
       /> */}
       <div className="posts">
-        <Link to="/using-ssr">Тут разные пёсели</Link>
+        <Link to="/ssr">Тут разные пёсели</Link>
         {nodes.map(post => {
           const { category, title, url, image } = post.frontmatter
           const img = getImage(image)
